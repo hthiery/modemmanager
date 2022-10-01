@@ -1,3 +1,13 @@
+modemmanager (1.18.12-1~bpo10+1) buster-backports; urgency=medium
+
+  * Rebuild for buster-backports.
+  * disable polkit support
+  * use buster control/rule file
+  * disable mbim and qmi support
+  * disable tests
+
+ -- Heiko Thiery <heiko.thiery@kontron.com>  Sat, 01 Oct 2022 14:56:33 +0000
+
 modemmanager (1.18.12-1) unstable; urgency=medium
 
   [ Evangelos Ribeiro Tzaras ]
