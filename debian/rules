@@ -18,6 +18,9 @@ override_dh_auto_clean:
 	rm -f gtk-doc.make m4/gtk-doc.m4
 	dh_auto_clean
 
+override_dh_auto_test:
+	DEB_BUILD_OPTIONS=nocheck dh_auto_test
+
 override_dh_auto_configure:
 	dh_auto_configure -- \
 		--enable-gtk-doc \
